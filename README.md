@@ -33,6 +33,9 @@
 * Second in Sigmoid and Tanh activation functions, derivative of sigmoid and Tanh is already very small. For sigmoid maximum derivate value is 0.25. 
 * Third, Sigmoid function always gives an output between [0,1] and Tanh between [-1,1]. so, doesn't matter how much big error you are passing, it will give small value and when we keep on doing this, after some layers values become so small that change in weights are significantly small and learning stops.
 * Now , as we know, weight change in one hidden layer depends upon the weights in previous layers. If weight change in previous layer is small, then it will get smaller in current layer and because of that we get either negative values of gradient or training become very slow or sometimes it stops and show error.
-###### Summary: 
+###### Summary of vanishing gradient: 
 * <b>Gradient based learning activation functions, squash large inputs into small range. so even large inputs will produce small change in output. When we stack multiple layers, then first layer will map input to small region, second layer will map output of first layer to further small region and keeps going on. As a result, even a large change in parameters of first layer will not produce much effect on output.</b>
+
+###### Convolution from scratch: 
+This file explain code for convolution operation from scrach and how internally all the steps apply on images using kernels and show the effect of some popular kernel also.
 
