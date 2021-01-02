@@ -39,5 +39,5 @@
 ###### Convolution from scratch: 
 This file explain code for convolution operation from scrach and how internally all the steps apply on images using kernels and show the effect of some popular kernel also.
 
-###### Why We are using CNN. why we can't just feed our image to ANN?
+###### <b>Why We are using CNN. why we can't just feed our image to ANN?</b>
 CNN uses the 3D property of image and use channels as depth and most important, it learns the spatial relationship between pixels of image, so when we are flattening the features and feeding to ANN, ANN learns those patterns that was extracted by CNN. It is more efficient. If we just flatten or image and feed to ANN, then We are just feeding pixels values, without telling the model how image pixels are related to each other and learnable parameters will also be too high.
