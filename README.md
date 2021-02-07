@@ -41,3 +41,12 @@ This file explain code for convolution operation from scrach and how internally 
 
 #### **Why We are using CNN. why we can't just feed our image to ANN?**
 CNN uses the 3D property of image and use channels as depth and most important, it learns the **spatial relationship between pixels of image**, so when we are flattening the features and feeding to ANN, ANN learns those patterns that was extracted by CNN. It is more efficient. If we just flatten or image and feed to ANN, then We are just feeding pixels values, without telling the model how image pixels are related to each other and learnable parameters will also be too high.
+
+#### **1x1 convolution:** 
+1x1 convolution serves three purpose:
+1. it can extract pixel level details from image and after that we can apply bigger kernels to extract more finer features from these features extracted from 1x1.
+2. It's major application lies in decreasing the number of feature maps or **channel wise pooling**. If number of channels keeps on increasing in deep neural networks such as 
+Inception and Resnet, then number of parameters keeps on increasing. This is not only computationaly expensive but can degrade or overfit the model also. So, to reduce the number of channels in networks and therefore parameters, we can use 1x1 kernel. 
+Let's say my image size is 112*112*64. If I apply 3*3*128 kernels, so total parameters are (3*3*128=1152) and no of operations performed are (112*112*64*3*3*128=92,48,44,032). On the other hand, if i use kernel of 1*1*128, no of parameters are (128) and operations are (10,27,60,448). **It means 82 millions more operations performed in case of 3*3 kernels.**
+3. 1x1 convolution can be used to increase number of channels also depending on requirement. E.g. in inception model we are convoluting multiple kernels over the image at same time and then performing depth wise concatnation. Now output from different features map will be at different scales and before adding, we have to bring depth of different kernel operations at same level. In that case, we can use 1x1 kernels to increase the depth or decrease before modifying the pixel correlation much. 
+4. 1x1 convolution is just a linear operation to project input to output without loosing much information from input. Moreover, non linearity is also added because of activation function after 1x1 kernel which aids in model learning.
