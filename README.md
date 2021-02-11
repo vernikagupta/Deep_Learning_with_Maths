@@ -53,5 +53,7 @@ Let's say my image size is 112*112*64. If I apply 3*3*128 kernels, so total para
 
 #### Link for good understanding of R-CNN
 <a href=https://medium.com/alegion/deep-learning-for-object-detection-and-localization-using-r-cnn-e88f85ea7c16> R-CNN </a>
+
 <a href=https://towardsdatascience.com/r-cnn-for-object-detection-a-technical-summary-9e7bfa8a557c> R-CNN_technical_summary </a>
+
 <a href=https://lilianweng.github.io/lil-log/2017/12/31/object-recognition-for-dummies-part-3.html> Good site to learn algorithms in depth </a>
