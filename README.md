@@ -57,3 +57,7 @@ Let's say my image size is 112*112*64. If I apply 3*3*128 kernels, so total para
 <a href=https://towardsdatascience.com/r-cnn-for-object-detection-a-technical-summary-9e7bfa8a557c> R-CNN_technical_summary </a>
 
 <a href=https://lilianweng.github.io/lil-log/2017/12/31/object-recognition-for-dummies-part-3.html> Good site to learn algorithms in depth </a>
+
+<a href=https://www.youtube.com/watch?v=x_TGsU9_vcc>Youtube video explaining RCNN intution</a>
+
+<a href=https://www.youtube.com/watch?v=LZRfHkTNQqo> bbox regression with l2 loss </a>
