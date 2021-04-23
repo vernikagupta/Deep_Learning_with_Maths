@@ -61,5 +61,6 @@ Let's say my image size is 112*112*64. If I apply 3*3*128 kernels, so total para
 https://www.youtube.com/watch?v=x_TGsU9_vcc
 
 **BBOX Regression:** https://www.youtube.com/watch?v=LZRfHkTNQqo
+
 **Resnet Model:** https://www.youtube.com/watch?v=Uuc1wdqMFtQ
 
