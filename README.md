@@ -65,8 +65,7 @@ https://www.youtube.com/watch?v=x_TGsU9_vcc
 **Resnet Model:** https://www.youtube.com/watch?v=Uuc1wdqMFtQ
 
 #### Link for good understanding of Faster- RCNN
-<a href=https://www.youtube.com/playlist?list=PL1GQaVhO4f_jLxOokW7CS5kY_J1t1T17S> Cogneethi Faster RCNN series </a>
-
+**Cogneethi Faster RCNN series:** https://www.youtube.com/playlist?list=PL1GQaVhO4f_jLxOokW7CS5kY_J1t1T17S
 <a href=https://blog.paperspace.com/faster-r-cnn-explained-object-detection> Faster RCNN </a>
 
 <a href=https://tryolabs.com/blog/2018/01/18/faster-r-cnn-down-the-rabbit-hole-of-modern-object-detection> tryolabs.com </a>
