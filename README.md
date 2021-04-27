@@ -67,9 +67,9 @@ https://www.youtube.com/watch?v=x_TGsU9_vcc
 #### Link for good understanding of Faster- RCNN
 <a href=https://blog.paperspace.com/faster-r-cnn-explained-object-detection> Faster RCNN </a>
 
-<a href=https://tryolabs.com/blog/2018/01/18/faster-r-cnn-down-the-rabbit-hole-of-modern-object-detection</a>
+<a href=https://tryolabs.com/blog/2018/01/18/faster-r-cnn-down-the-rabbit-hole-of-modern-object-detection> tryolabs.com </a>
 
-<a href=https://medium.com/alegion/deep-learning-for-object-detection-and-localization-using-fast-r-cnn-85d52e3928a1</a>
+<a href=https://medium.com/alegion/deep-learning-for-object-detection-and-localization-using-fast-r-cnn-85d52e3928a1> medium.com/alegion/deep-learning-for-object-detection-and-localization-using-fast-r-cnn-85d52e3928a1 </a>
 
-<a href=https://towardsdatascience.com/faster-r-cnn-for-object-detection-a-technical-summary-474c5b857b46</a>
+<a href=https://towardsdatascience.com/faster-r-cnn-for-object-detection-a-technical-summary-474c5b857b46> towardsdatascience.com/faster-r-cnn-for-object-detection-a-technical-summary-474c5b857b46 </a>
 
